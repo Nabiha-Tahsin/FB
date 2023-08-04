@@ -50,7 +50,7 @@ function timeAgo(date) {
       { name: "d", seconds: 86400 },
       { name: "h", seconds: 3600 },
       { name: "min", seconds: 60 },
-      { name: " S", seconds: 1 },
+      { name: "sec", seconds: 1 },
     ];
   
     let timeAgoString = "Just now";
